@@ -2752,6 +2752,11 @@ body {
 	border-top: 4px solid #669;
 }
 
+div.wp_plus_one_button, div.wpfblike {
+    clear: left;
+    height: 60px;
+}
+
 @media (max-width: 450px) {
 	body {
 		background-size: 90px auto;
