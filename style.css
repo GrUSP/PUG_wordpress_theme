@@ -2757,13 +2757,25 @@ div.wp_plus_one_button, div.wpfblike {
     height: 60px;
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 320px) {
 	body {
 		background-size: 90px auto;
+                background-position: -25px 0;
+                padding: 0 6px;
 	}
+	#access ul {
+                font-size: 11px !important;
+        }
+	#access ul li a {
+                padding: 0 0.6em;
+        }
+
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 480px) {
 	body {
 		background-size: 70px auto;
+                background-position: -20px 0;
 	}
 }
